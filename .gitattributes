@@ -1,4 +1,5 @@
 # 强制 Docker 和脚本相关文件使用 Linux 换行，避免容器入口脚本执行失败。
+.gitattributes text eol=lf
 *.sh text eol=lf
 Dockerfile text eol=lf
 Dockerfile.* text eol=lf
